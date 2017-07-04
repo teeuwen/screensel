@@ -1,0 +1,75 @@
+#
+# ~/.config/screensel/config: screensel configuration file
+#
+
+#
+# primary
+# Primary display
+# Default: "LVDS1" or "eDP1"
+#
+#primary = "LVDS1"
+
+#
+# action
+# Default action to perform when a new screen is detected (only applies to
+#   daemon mode)
+# Options: 0 (primary), 1 (secondary), 2 (mirror), 3 (extend)
+# Default: 0
+#
+#action = 0
+
+#
+# actionorder
+# Order to cycle through display mode
+# Options: 0 (primary), 1 (secondary), 2 (mirror), 3 (extend)
+# Default: 0, 1, 2, 3
+#
+#actionorder = 0, 1, 2, 3
+
+#
+# actiondelay
+# Delay before applying display mode
+# Default: 1.0
+#
+#actiondelay = 1.0
+
+#
+# actioncmd
+# Command to run when changing display mode
+# "{}" is replaced by the display mode which is either "off", "mirror" or
+#  "extend"
+# Escape either '{' or '}' with '\' to prevent this behavior
+# Default: ""
+#
+#actioncmd = ""
+
+#
+# autoexit
+# Automatically exit after initializing a secondary display (only applies to
+#   daemon mode)
+# Options: 0 (false), 1 (true)
+# Default: 0
+#
+#autoexit = 0
+
+#
+# direction
+# Default direction to extend secondary display to
+# Options: 0 (left), 1 (right), 2 (top), 3 (bottom)
+# Default: 1
+#
+#direction = 1
+
+#
+# conncmd
+# Command to run after a new display has been connected
+# Default: ""
+#
+#conncmd = ""
+
+#
+# disconncmd
+# Command to run after a new display has been disconnected
+# Default: ""
+#
+#disconncmd = ""
